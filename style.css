@@ -1,0 +1,531 @@
+body{
+background-color: #faf8ef;
+}
+h5{
+    color: #343a40;
+}
+.name{
+    color: #343a40;
+}
+.love{
+    color: #343a40 !important;
+}
+/*----------------- Mail-------------------- */
+#email{
+    text-decoration: none;
+    float: right;
+    color:#343a40;
+}
+.footer{
+    margin-top: 5% !important;
+    margin-bottom: 10px;
+}
+@media (max-width: 479px) {
+    .footer{
+    margin-top: 35% !important;
+    }
+}
+
+.btn-whatsapp {
+    color: #212529;
+    background-color: #25D366;
+    border-color: #25D366;
+}
+
+.btn-whatsapp:hover {
+    color: #212529;
+    background-color: #1fb457;
+    border-color: #1da751;
+}
+
+.btn-whatsapp:focus, .btn-whatsapp.focus {
+    box-shadow: 0 0 0 0.2rem rgba(37, 211, 102, 0.5);
+}
+
+.btn-whatsapp.disabled, .btn-whatsapp:disabled {
+    color: #212529;
+    background-color: #25D366;
+    border-color: #25D366;
+}
+
+.btn-whatsapp:not(:disabled):not(.disabled):active, .btn-whatsapp:not(:disabled):not(.disabled).active, .show > .btn-whatsapp.dropdown-toggle {
+    color: #212529;
+    background-color: #1da751;
+    border-color: #1b9a4a;
+}
+
+.btn-whatsapp:not(:disabled):not(.disabled):active:focus, .btn-whatsapp:not(:disabled):not(.disabled).active:focus, .show > .btn-whatsapp.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(37, 211, 102, 0.5);
+}
+
+.btn-outline-whatsapp {
+    color: #25D366;
+    background-color: transparent;
+    border-color: #25D366;
+}
+
+.btn-outline-whatsapp:hover {
+    color: #212529;
+    background-color: #25D366;
+    border-color: #25D366;
+}
+
+.btn-outline-whatsapp:focus, .btn-outline-whatsapp.focus {
+    box-shadow: 0 0 0 0.2rem rgba(37, 211, 102, 0.5);
+}
+
+.btn-outline-whatsapp.disabled, .btn-outline-whatsapp:disabled {
+    color: #25D366;
+    background-color: transparent;
+}
+
+.btn-outline-whatsapp:not(:disabled):not(.disabled):active, .btn-outline-whatsapp:not(:disabled):not(.disabled).active, .show > .btn-outline-whatsapp.dropdown-toggle {
+    color: #212529;
+    background-color: #25D366;
+    border-color: #25D366;
+}
+
+.btn-outline-whatsapp:not(:disabled):not(.disabled):active:focus, .btn-outline-whatsapp:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-whatsapp.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(37, 211, 102, 0.5);
+}
+
+.btn-facebook {
+    color: #fff;
+    background-color: #4267B2;
+    border-color: #4267B2;
+}
+
+.btn-facebook:hover {
+    color: #fff;
+    background-color: #385797;
+    border-color: #34518c;
+}
+
+.btn-facebook:focus, .btn-facebook.focus {
+    box-shadow: 0 0 0 0.2rem rgba(66, 103, 178, 0.5);
+}
+
+.btn-facebook.disabled, .btn-facebook:disabled {
+    color: #fff;
+    background-color: #4267B2;
+    border-color: #4267B2;
+}
+
+.btn-facebook:not(:disabled):not(.disabled):active, .btn-facebook:not(:disabled):not(.disabled).active, .show > .btn-facebook.dropdown-toggle {
+    color: #fff;
+    background-color: #34518c;
+    border-color: #304b81;
+}
+
+.btn-facebook:not(:disabled):not(.disabled):active:focus, .btn-facebook:not(:disabled):not(.disabled).active:focus, .show > .btn-facebook.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(66, 103, 178, 0.5);
+}
+
+.btn-outline-facebook {
+    color: #4267B2;
+    background-color: transparent;
+    border-color: #4267B2;
+}
+
+.btn-outline-facebook:hover {
+    color: #fff;
+    background-color: #4267B2;
+    border-color: #4267B2;
+}
+
+.btn-outline-facebook:focus, .btn-outline-facebook.focus {
+    box-shadow: 0 0 0 0.2rem rgba(66, 103, 178, 0.5);
+}
+
+.btn-outline-facebook.disabled, .btn-outline-facebook:disabled {
+    color: #4267B2;
+    background-color: transparent;
+}
+
+.btn-outline-facebook:not(:disabled):not(.disabled):active, .btn-outline-facebook:not(:disabled):not(.disabled).active, .show > .btn-outline-facebook.dropdown-toggle {
+    color: #fff;
+    background-color: #4267B2;
+    border-color: #4267B2;
+}
+
+.btn-outline-facebook:not(:disabled):not(.disabled):active:focus, .btn-outline-facebook:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-facebook.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(66, 103, 178, 0.5);
+}
+
+.btn-twitter {
+    color: #212529;
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+
+.btn-twitter:hover {
+    color: #212529;
+    background-color: #0c8ede;
+    border-color: #0b85d0;
+}
+
+.btn-twitter:focus, .btn-twitter.focus {
+    box-shadow: 0 0 0 0.2rem rgba(29, 161, 242, 0.5);
+}
+
+.btn-twitter.disabled, .btn-twitter:disabled {
+    color: #212529;
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+
+.btn-twitter:not(:disabled):not(.disabled):active, .btn-twitter:not(:disabled):not(.disabled).active, .show > .btn-twitter.dropdown-toggle {
+    color: #212529;
+    background-color: #0b85d0;
+    border-color: #0b7cc1;
+}
+
+.btn-twitter:not(:disabled):not(.disabled):active:focus, .btn-twitter:not(:disabled):not(.disabled).active:focus, .show > .btn-twitter.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(29, 161, 242, 0.5);
+}
+
+.btn-outline-twitter {
+    color: #1DA1F2;
+    background-color: transparent;
+    border-color: #1DA1F2;
+}
+
+.btn-outline-twitter:hover {
+    color: #212529;
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+
+.btn-outline-twitter:focus, .btn-outline-twitter.focus {
+    box-shadow: 0 0 0 0.2rem rgba(29, 161, 242, 0.5);
+}
+
+.btn-outline-twitter.disabled, .btn-outline-twitter:disabled {
+    color: #1DA1F2;
+    background-color: transparent;
+}
+
+.btn-outline-twitter:not(:disabled):not(.disabled):active, .btn-outline-twitter:not(:disabled):not(.disabled).active, .show > .btn-outline-twitter.dropdown-toggle {
+    color: #212529;
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+
+.btn-outline-twitter:not(:disabled):not(.disabled):active:focus, .btn-outline-twitter:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-twitter.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(29, 161, 242, 0.5);
+}
+
+.btn-youtube {
+    color: #fff;
+    background-color: #FF0000;
+    border-color: #FF0000;
+}
+
+.btn-youtube:hover {
+    color: #fff;
+    background-color: #db0000;
+    border-color: #cc0000;
+}
+
+.btn-youtube:focus, .btn-youtube.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5);
+}
+
+.btn-youtube.disabled, .btn-youtube:disabled {
+    color: #fff;
+    background-color: #FF0000;
+    border-color: #FF0000;
+}
+
+.btn-youtube:not(:disabled):not(.disabled):active, .btn-youtube:not(:disabled):not(.disabled).active, .show > .btn-youtube.dropdown-toggle {
+    color: #fff;
+    background-color: #cc0000;
+    border-color: #bc0000;
+}
+
+.btn-youtube:not(:disabled):not(.disabled):active:focus, .btn-youtube:not(:disabled):not(.disabled).active:focus, .show > .btn-youtube.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5);
+}
+
+.btn-outline-youtube {
+    color: #FF0000;
+    background-color: transparent;
+    border-color: #FF0000;
+}
+
+.btn-outline-youtube:hover {
+    color: #fff;
+    background-color: #FF0000;
+    border-color: #FF0000;
+}
+
+.btn-outline-youtube:focus, .btn-outline-youtube.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5);
+}
+
+.btn-outline-youtube.disabled, .btn-outline-youtube:disabled {
+    color: #FF0000;
+    background-color: transparent;
+}
+
+.btn-outline-youtube:not(:disabled):not(.disabled):active, .btn-outline-youtube:not(:disabled):not(.disabled).active, .show > .btn-outline-youtube.dropdown-toggle {
+    color: #fff;
+    background-color: #FF0000;
+    border-color: #FF0000;
+}
+
+.btn-outline-youtube:not(:disabled):not(.disabled):active:focus, .btn-outline-youtube:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-youtube.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5);
+}
+
+.btn-telegram {
+    color: #fff;
+    background-color: #0088cc;
+    border-color: #0088cc;
+}
+
+.btn-telegram:hover {
+    color: #fff;
+    background-color: #0070a8;
+    border-color: #006599;
+}
+
+.btn-telegram:focus, .btn-telegram.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 136, 204, 0.5);
+}
+
+.btn-telegram.disabled, .btn-telegram:disabled {
+    color: #fff;
+    background-color: #0088cc;
+    border-color: #0088cc;
+}
+
+.btn-telegram:not(:disabled):not(.disabled):active, .btn-telegram:not(:disabled):not(.disabled).active, .show > .btn-telegram.dropdown-toggle {
+    color: #fff;
+    background-color: #006599;
+    border-color: #005b89;
+}
+
+.btn-telegram:not(:disabled):not(.disabled):active:focus, .btn-telegram:not(:disabled):not(.disabled).active:focus, .show > .btn-telegram.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 136, 204, 0.5);
+}
+
+.btn-outline-telegram {
+    color: #0088cc;
+    background-color: transparent;
+    border-color: #0088cc;
+}
+
+.btn-outline-telegram:hover {
+    color: #fff;
+    background-color: #0088cc;
+    border-color: #0088cc;
+}
+
+.btn-outline-telegram:focus, .btn-outline-telegram.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 136, 204, 0.5);
+}
+
+.btn-outline-telegram.disabled, .btn-outline-telegram:disabled {
+    color: #0088cc;
+    background-color: transparent;
+}
+
+.btn-outline-telegram:not(:disabled):not(.disabled):active, .btn-outline-telegram:not(:disabled):not(.disabled).active, .show > .btn-outline-telegram.dropdown-toggle {
+    color: #fff;
+    background-color: #0088cc;
+    border-color: #0088cc;
+}
+
+.btn-outline-telegram:not(:disabled):not(.disabled):active:focus, .btn-outline-telegram:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-telegram.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 136, 204, 0.5);
+}
+
+.btn-gitlab {
+    color: #212529;
+    background-color: #fc6d26;
+    border-color: #fc6d26;
+}
+
+.btn-gitlab:hover {
+    color: #212529;
+    background-color: #fa5503;
+    border-color: #eb5003;
+}
+
+.btn-gitlab:focus, .btn-gitlab.focus {
+    box-shadow: 0 0 0 0.2rem rgba(252, 109, 38, 0.5);
+}
+
+.btn-gitlab.disabled, .btn-gitlab:disabled {
+    color: #212529;
+    background-color: #fc6d26;
+    border-color: #fc6d26;
+}
+
+.btn-gitlab:not(:disabled):not(.disabled):active, .btn-gitlab:not(:disabled):not(.disabled).active, .show > .btn-gitlab.dropdown-toggle {
+    color: #212529;
+    background-color: #eb5003;
+    border-color: #dc4b03;
+}
+
+.btn-gitlab:not(:disabled):not(.disabled):active:focus, .btn-gitlab:not(:disabled):not(.disabled).active:focus, .show > .btn-gitlab.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(252, 109, 38, 0.5);
+}
+
+.btn-outline-gitlab {
+    color: #fc6d26;
+    background-color: transparent;
+    border-color: #fc6d26;
+}
+
+.btn-outline-gitlab:hover {
+    color: #212529;
+    background-color: #fc6d26;
+    border-color: #fc6d26;
+}
+
+.btn-outline-gitlab:focus, .btn-outline-gitlab.focus {
+    box-shadow: 0 0 0 0.2rem rgba(252, 109, 38, 0.5);
+}
+
+.btn-outline-gitlab.disabled, .btn-outline-gitlab:disabled {
+    color: #fc6d26;
+    background-color: transparent;
+}
+
+.btn-outline-gitlab:not(:disabled):not(.disabled):active, .btn-outline-gitlab:not(:disabled):not(.disabled).active, .show > .btn-outline-gitlab.dropdown-toggle {
+    color: #212529;
+    background-color: #fc6d26;
+    border-color: #fc6d26;
+}
+
+.btn-outline-gitlab:not(:disabled):not(.disabled):active:focus, .btn-outline-gitlab:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-gitlab.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(252, 109, 38, 0.5);
+}
+
+.btn-github {
+    color: #fff;
+    background-color: #6e5494;
+    border-color: #6e5494;
+}
+
+.btn-github:hover {
+    color: #fff;
+    background-color: #5d477d;
+    border-color: #554173;
+}
+
+.btn-github:focus, .btn-github.focus {
+    box-shadow: 0 0 0 0.2rem rgba(110, 84, 148, 0.5);
+}
+
+.btn-github.disabled, .btn-github:disabled {
+    color: #fff;
+    background-color: #6e5494;
+    border-color: #6e5494;
+}
+
+.btn-github:not(:disabled):not(.disabled):active, .btn-github:not(:disabled):not(.disabled).active, .show > .btn-github.dropdown-toggle {
+    color: #fff;
+    background-color: #554173;
+    border-color: #4e3b69;
+}
+
+.btn-github:not(:disabled):not(.disabled):active:focus, .btn-github:not(:disabled):not(.disabled).active:focus, .show > .btn-github.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(110, 84, 148, 0.5);
+}
+
+.btn-outline-github {
+    color: #6e5494;
+    background-color: transparent;
+    border-color: #6e5494;
+}
+
+.btn-outline-github:hover {
+    color: #fff;
+    background-color: #6e5494;
+    border-color: #6e5494;
+}
+
+.btn-outline-github:focus, .btn-outline-github.focus {
+    box-shadow: 0 0 0 0.2rem rgba(110, 84, 148, 0.5);
+}
+
+.btn-outline-github.disabled, .btn-outline-github:disabled {
+    color: #6e5494;
+    background-color: transparent;
+}
+
+.btn-outline-github:not(:disabled):not(.disabled):active, .btn-outline-github:not(:disabled):not(.disabled).active, .show > .btn-outline-github.dropdown-toggle {
+    color: #fff;
+    background-color: #6e5494;
+    border-color: #6e5494;
+}
+
+.btn-outline-github:not(:disabled):not(.disabled):active:focus, .btn-outline-github:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-github.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(110, 84, 148, 0.5);
+}
+
+.btn-instagram {
+    color: #fff;
+    background-color: #833ab4;
+    border-color: #833ab4;
+}
+
+.btn-instagram:hover {
+    color: #fff;
+    background-color: #6f3199;
+    border-color: #662d8d;
+}
+
+.btn-instagram:focus, .btn-instagram.focus {
+    box-shadow: 0 0 0 0.2rem rgba(131, 58, 180, 0.5);
+}
+
+.btn-instagram.disabled, .btn-instagram:disabled {
+    color: #fff;
+    background-color: #833ab4;
+    border-color: #833ab4;
+}
+
+.btn-instagram:not(:disabled):not(.disabled):active, .btn-instagram:not(:disabled):not(.disabled).active, .show > .btn-instagram.dropdown-toggle {
+    color: #fff;
+    background-color: #662d8d;
+    border-color: #5e2981;
+}
+
+.btn-instagram:not(:disabled):not(.disabled):active:focus, .btn-instagram:not(:disabled):not(.disabled).active:focus, .show > .btn-instagram.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(131, 58, 180, 0.5);
+}
+
+.btn-outline-instagram {
+    color: #833ab4;
+    background-color: transparent;
+    border-color: #833ab4;
+}
+
+.btn-outline-instagram:hover {
+    color: #fff;
+    background-color: #833ab4;
+    border-color: #833ab4;
+}
+
+.btn-outline-instagram:focus, .btn-outline-instagram.focus {
+    box-shadow: 0 0 0 0.2rem rgba(131, 58, 180, 0.5);
+}
+
+.btn-outline-instagram.disabled, .btn-outline-instagram:disabled {
+    color: #833ab4;
+    background-color: transparent;
+}
+
+.btn-outline-instagram:not(:disabled):not(.disabled):active, .btn-outline-instagram:not(:disabled):not(.disabled).active, .show > .btn-outline-instagram.dropdown-toggle {
+    color: #fff;
+    background-color: #833ab4;
+    border-color: #833ab4;
+}
+
+.btn-outline-instagram:not(:disabled):not(.disabled):active:focus, .btn-outline-instagram:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-instagram.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(131, 58, 180, 0.5);
+}
