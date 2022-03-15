@@ -529,3 +529,68 @@ h5{
 .btn-outline-instagram:not(:disabled):not(.disabled):active:focus, .btn-outline-instagram:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-instagram.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgba(131, 58, 180, 0.5);
 }
+
+.btn-saweria {
+    color: #f7a419;
+    border-color: #f7a419;
+  }
+  
+  .btn-saweria:hover {
+    color: #212529;
+    background-color: #f7a419;
+    border-color: #f7a419;
+  }
+  
+  .btn-saweria:focus, .btn-saweria.focus {
+    box-shadow: 0 0 0 0.2rem rgba(247, 164, 25, 0.5);
+  }
+  
+  .btn-saweria.disabled, .btn-saweria:disabled {
+    color: #f7a419;
+    background-color: transparent;
+  }
+  
+  .btn-saweria:not(:disabled):not(.disabled):active, .btn-saweria:not(:disabled):not(.disabled).active,
+  .show > .btn-saweria.dropdown-toggle {
+    color: #212529;
+    background-color: #f7a419;
+    border-color: #f7a419;
+  }
+  
+  .btn-saweria:not(:disabled):not(.disabled):active:focus, .btn-saweria:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-saweria.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(247, 164, 25, 0.5);
+  }
+  
+  .btn-trakteer {
+    color: #c01d2e;
+    border-color: #c01d2e;
+  }
+  
+  .btn-trakteer:hover {
+    color: #fff;
+    background-color: #c01d2e;
+    border-color: #c01d2e;
+  }
+  
+  .btn-trakteer:focus, .btn-trakteer.focus {
+    box-shadow: 0 0 0 0.2rem rgba(192, 29, 46, 0.5);
+  }
+  
+  .btn-trakteer.disabled, .btn-trakteer:disabled {
+    color: #c01d2e;
+    background-color: transparent;
+  }
+  
+  .btn-trakteer:not(:disabled):not(.disabled):active, .btn-trakteer:not(:disabled):not(.disabled).active,
+  .show > .btn-trakteer.dropdown-toggle {
+    color: #fff;
+    background-color: #c01d2e;
+    border-color: #c01d2e;
+  }
+  
+  .btn-trakteer:not(:disabled):not(.disabled):active:focus, .btn-trakteer:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-trakteer.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(192, 29, 46, 0.5);
+  }
+  
